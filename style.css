@@ -439,3 +439,237 @@ display:none;
 }
 
 }
+/* =========================
+   TABLET
+========================= */
+
+@media screen and (max-width:1024px){
+
+.hero{
+flex-direction:column;
+justify-content:center;
+text-align:center;
+padding-top:140px;
+padding-bottom:80px;
+}
+
+.hero-left{
+max-width:100%;
+}
+
+.hero h1{
+font-size:60px;
+}
+
+.hero-right{
+width:100%;
+display:flex;
+justify-content:center;
+}
+
+.profile-card{
+width:100%;
+max-width:420px;
+}
+
+.project-card{
+grid-template-columns:1fr;
+}
+
+.stats-grid{
+grid-template-columns:repeat(2,1fr);
+}
+
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media screen and (max-width:768px){
+
+header{
+padding:15px 20px;
+}
+
+nav{
+display:none;
+}
+
+.logo{
+font-size:24px;
+}
+
+.hero{
+padding:120px 20px 60px;
+gap:40px;
+}
+
+.hero h1{
+font-size:42px;
+}
+
+.hero h2{
+font-size:22px;
+}
+
+.hero p{
+font-size:15px;
+}
+
+.buttons{
+flex-direction:column;
+width:100%;
+}
+
+.btn{
+width:100%;
+text-align:center;
+}
+
+.profile-card{
+width:100%;
+padding:25px;
+}
+
+.avatar{
+width:130px;
+height:130px;
+font-size:50px;
+}
+
+.tech{
+justify-content:center;
+}
+
+.tech span{
+font-size:12px;
+padding:7px 12px;
+}
+
+section{
+padding:80px 20px;
+}
+
+.section-title{
+font-size:32px;
+}
+
+.stats-grid{
+grid-template-columns:1fr;
+}
+
+.counter{
+font-size:40px;
+}
+
+.skills-grid{
+grid-template-columns:1fr;
+}
+
+.skill-card{
+padding:20px;
+}
+
+.project-image{
+height:200px;
+font-size:18px;
+}
+
+.project-content h3{
+font-size:24px;
+}
+
+.glass{
+padding:25px;
+}
+
+footer{
+padding:30px 20px;
+}
+
+}
+
+
+/* =========================
+   SMALL PHONE
+========================= */
+
+@media screen and (max-width:480px){
+
+.hero h1{
+font-size:34px;
+}
+
+.hero h2{
+font-size:18px;
+}
+
+.hero p{
+font-size:14px;
+}
+
+.badge{
+font-size:12px;
+padding:8px 15px;
+}
+
+.avatar{
+width:110px;
+height:110px;
+font-size:40px;
+}
+
+.profile-card{
+padding:20px;
+}
+
+.section-title{
+font-size:28px;
+}
+
+.counter{
+font-size:34px;
+}
+
+.project-image{
+height:160px;
+}
+
+.project-content h3{
+font-size:20px;
+}
+
+}
+
+
+/* =========================
+   LARGE SCREEN
+========================= */
+
+@media screen and (min-width:1600px){
+
+.hero{
+max-width:1500px;
+margin:auto;
+}
+
+section{
+max-width:1500px;
+margin:auto;
+}
+
+.hero h1{
+font-size:100px;
+}
+
+.hero h2{
+font-size:36px;
+}
+
+.profile-card{
+width:450px;
+}
+
+}
